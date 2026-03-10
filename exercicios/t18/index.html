@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-pt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Imagem Flexível</title>
+ 
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+ 
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+ 
+    figure {
+      margin: 0;
+    }
+ 
+    figcaption {
+      margin-top: 8px;
+      font-size: 0.9rem;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+ 
+  <h1>Imagem Flexível</h1>
+  <p><p>Você está vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiência 🥱</p>
+  </p>
+ 
+  <figure>
+    <picture>
+      <!-- Tela larga -->
+      <source media="(min-width: 900px)" srcset="imagens/paisagem-g.png">
+ 
+      <!-- Tela média -->
+      <source media="(min-width: 600px)" srcset="imagens/paisagem-m.png">
+ 
+      <!-- Tela pequena (mobile) -->
+      <img src="imagens/paisagem-p.png"
+           alt="Imagem responsiva">
+    </picture>
+  </figure>
+ 
+</body>
+</html>

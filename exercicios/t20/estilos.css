@@ -1,0 +1,34 @@
+body {
+    background-color: #ffffcc; /* Cor de fundo amarela clara */
+    font-family: Arial, sans-serif; /* Fonte do site */
+    margin: 0;
+    padding: 0;
+}
+ 
+.pagina {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+}
+ 
+h1 {
+    color: #cc6600; /* Cor do título principal */
+}
+ 
+h2 {
+    color: #cc0000; /* Cor do subtítulo */
+}
+ 
+p {
+    color: #333333; /* Cor do texto */
+}
+ 
+a {
+    color: #0066cc; /* Cor do link */
+    text-decoration: none;
+}
+ 
+a:hover {
+    text-decoration: underline;
+}
